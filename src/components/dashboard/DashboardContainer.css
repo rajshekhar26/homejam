@@ -1,0 +1,17 @@
+.container-dashboard {
+	display: flex;
+	justify-content: space-evenly;
+	overflow-x: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.container-dashboard::-webkit-scrollbar {
+	width: 0;
+}
+
+@media (max-width: 1020px) {
+	.container-dashboard {
+		justify-content: space-between;
+	}
+}

@@ -1,0 +1,32 @@
+.container-review {
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+
+.container-heading-right {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.container-heading-right img {
+	margin-left: 1em;
+	cursor: pointer;
+}
+
+.container-heading span {
+	opacity: 0.5;
+}
+
+.container-review-card {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3em;
+	padding: 8px 8px 0 0;
+	overflow-x: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.container-review-card::-webkit-scrollbar {
+	width: 0;
+}

@@ -1,0 +1,72 @@
+nav {
+	display: flex;
+}
+
+nav ul {
+	margin-right: 2em;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	margin-left: 2em;
+	font-size: 14px;
+	font-family: var(--ff-nav);
+}
+
+nav a,
+.container-shows a {
+	padding: 0.2em 0;
+	position: relative;
+}
+
+nav a::before,
+.container-shows a::before {
+	content: '';
+	display: inline;
+	width: 0%;
+	height: 0.12em;
+	position: absolute;
+	bottom: 0;
+	background-color: var(--yellow);
+	transition: width 0.2s ease-in-out;
+}
+
+nav a:hover::before,
+.container-shows a:hover::before {
+	width: 100%;
+}
+
+.basket {
+	width: 14px;
+	height: 14px;
+	margin-top: 0.5em;
+}
+
+.search {
+	margin-right: 0.7em;
+	width: 12px;
+	height: 12px;
+}
+
+.hamburger {
+	display: none;
+}
+
+@media (max-width: 720px) {
+	nav ul {
+		display: none;
+	}
+
+	.basket {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hamburger {
+		display: block;
+		width: 20px;
+		height: 20px;
+		margin: 0.5em 0 0 1em;
+	}
+}

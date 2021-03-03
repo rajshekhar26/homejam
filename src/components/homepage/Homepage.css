@@ -1,0 +1,24 @@
+.main {
+	background: url(../../images/container-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container-home {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: linear-gradient(
+		180deg,
+		rgba(5, 11, 20, 0.28) 0%,
+		rgba(1, 13, 32, 0.69) 67.53%,
+		#0a0b1a 85.33%
+	);
+	height: 100vh;
+}
+
+@media (max-width: 920px) {
+	.main {
+		background-position: center;
+	}
+}

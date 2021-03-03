@@ -1,0 +1,13 @@
+.container-hero p {
+	max-width: 25em;
+	width: 85%;
+	margin-top: 1.5em;
+	opacity: 0.6;
+	font-size: 1.5rem;
+}
+
+@media (max-width: 720px) {
+	.container-hero p {
+		font-size: 1rem;
+	}
+}

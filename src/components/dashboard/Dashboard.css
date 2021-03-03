@@ -1,0 +1,24 @@
+.dashboard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-width: 12em;
+	min-height: 12em;
+	margin: 0 1em;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+}
+
+.dashboard:first-child {
+	border-right: 1px solid var(--pink);
+	border-bottom: 1px solid var(--pink);
+}
+
+.dashboard h3 {
+	margin: 0.7em 0 0.5em 0;
+}
+
+.dashboard p {
+	opacity: 0.5;
+}
